@@ -1,0 +1,71 @@
+body{
+    background-color: #abe9cd;
+    background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
+    
+}
+
+.header{
+    color: slateblue;
+    top : 0;
+    padding-top: 5px;
+    background-color: #abe9cd;
+background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
+font-family: 'Big Shoulders Stencil Display', cursive;
+
+}
+
+.header img{
+    width : 100px ; 
+    border-radius: 30px;
+}
+
+.capture{
+    color : royalblue;
+    padding: 12px;
+    margin-top: 10px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: whitesmoke;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
+
+.footer {
+    position: fixed;
+    color: #6c757d;
+    bottom: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+    line-height: 3;
+    text-align: center;
+ }
+
+.capture label{
+    background-color: white;
+    width: 310px;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
+
+#camera , #result{
+    border-color: navy;
+    border-style: dashed;
+    width: 300px;
+    height: 300px;
+    border-width: 3px;
+}
+
+#bulb{
+    width : 100px ; 
+    border-radius: 30px;
+}
+
+#object_name{
+    font-size : 30px;
+    color: aqua;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.result_name{
+    box-shadow: 15px 26px 46px 0px rgba(87,59,214,1);
+-webkit-box-shadow: 15px 26px 46px 0px rgba(87,59,214,1);
+-moz-box-shadow: 15px 26px 46px 0px rgba(87,59,214,1);
+}
